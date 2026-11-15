@@ -1,0 +1,19 @@
+{
+  "name": "beauty-os-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BeautyOS by AI Beauty Bot: salon CRM and AI receptionist for AI agents.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "homepage": "https://ai-beauty.bot/agents",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai-beauty-bot/beauty-os-skill.git"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ai-beauty-bot",
+  "description": "BeautyOS by AI Beauty Bot: salon CRM and AI receptionist for AI agents.",
+  "owner": {
+    "name": "AI Beauty Bot",
+    "email": "support@ai-beauty.bot"
+  },
+  "plugins": [
+    {
+      "name": "beautyos",
+      "source": "./",
+      "description": "Set up and run your salon in BeautyOS with changes you review and confirm.",
+      "category": "productivity",
+      "tags": ["salon", "crm", "booking", "ai-receptionist", "mcp"]
+    }
+  ]
+}

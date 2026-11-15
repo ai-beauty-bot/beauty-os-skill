@@ -1,0 +1,13 @@
+{
+  "name": "beautyos",
+  "version": "1.0.0",
+  "description": "BeautyOS by AI Beauty Bot. Free salon CRM and optional AI receptionist, with changes you review and confirm.",
+  "mcpServers": {
+    "beautyos": {
+      "httpUrl": "https://agents.ai-beauty.bot/beauty-os/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

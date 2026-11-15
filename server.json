@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "bot.ai-beauty/beautyos",
+  "title": "BeautyOS by AI Beauty Bot",
+  "description": "Free salon CRM: services, staff, clients, online booking and an optional AI receptionist.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ai-beauty.bot/agents",
+  "repository": {
+    "url": "https://github.com/ai-beauty-bot/beauty-os-skill",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://ai-beauty.bot/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.ai-beauty.bot/beauty-os/mcp"
+    }
+  ]
+}

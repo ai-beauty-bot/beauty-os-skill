@@ -1,0 +1,26 @@
+{
+  "name": "beautyos",
+  "displayName": "BeautyOS by AI Beauty Bot",
+  "version": "1.0.0",
+  "description": "Free salon CRM your AI agent can set up and run: services, staff, clients, online booking and an optional AI receptionist. Review and confirm salon changes.",
+  "author": {
+    "name": "AI Beauty Bot",
+    "email": "support@ai-beauty.bot",
+    "url": "https://ai-beauty.bot"
+  },
+  "homepage": "https://ai-beauty.bot/agents",
+  "repository": "https://github.com/ai-beauty-bot/beauty-os-skill",
+  "license": "MIT",
+  "keywords": ["beauty-salon", "salon-crm", "online-booking", "ai-receptionist", "mcp"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://ai-beauty.bot/agents",
+  "supportUrl": "https://t.me/ai_beauty_support_bot",
+  "privacyPolicyUrl": "https://ai-beauty.bot/privacy",
+  "termsOfServiceUrl": "https://ai-beauty.bot/terms",
+  "mcpServers": {
+    "beautyos": {
+      "type": "http",
+      "url": "https://agents.ai-beauty.bot/beauty-os/mcp"
+    }
+  }
+}
